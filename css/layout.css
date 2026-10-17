@@ -1,0 +1,18 @@
+body {
+     width: 1440px;          /* ВРЕМЕННО: ширина макета */
+    margin: 0 auto;
+    display: block;
+  font-family: "Fira Sans";
+}
+section {           /*УДАЛИТЬ ПОТОМ*/
+  border: 1px dashed #ccc;
+}
+
+.hero      { background: #009CFF; min-height: 300px; }
+.history   { background: #000; color: #fff; min-height: 500px; }
+.styles    { background: #fff; min-height: 400px; }
+.glyphs    { background: #000; min-height: 300px; }
+.big-bubble{ background: #009CFF; min-height: 300px; }
+.languages { background: #fff; min-height: 600px; }
+.outro     { background: #fff; min-height: 400px; }
+footer     { background: #ccc; min-height: 150px; }
