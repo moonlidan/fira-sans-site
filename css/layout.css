@@ -1,11 +1,8 @@
-body {
-     width: 1440px;          /* ВРЕМЕННО: ширина макета */
-    margin: 0 auto;
-    display: block;
-  font-family: "Fira Sans";
+body{
 
   width: 1440px;
   margin: 0 auto;
+  display: block;
   font-family: "Fira Sans", sans-serif;
   background: url("../img/fon.svg") top center / 1440px auto no-repeat;
 }
@@ -13,11 +10,189 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   border: 1px dashed #ccc;
 }
 
-.hero       {height: 712px;  background: #009CFF;}
+.hero {
+  position:relative;
+  z-index: 2;
+  height: 712px;
+  background: transparent;
+}
+.hero_title {
+  position: absolute;
+ left: 83px;
+ top: 77px;
+ font-size: 594px;
+ font-weight: 600;
+ line-height: normal;
+ white-space: nowrap;
+ color: #fff;
+ -webkit-text-stroke: 10px #009CFF;
+ paint-order: stroke fill;
+}
+
+.hero_subtitle {
+  position: absolute;
+  left: 26px;
+  top: 653px;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 132%;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.status-bar {
+  position: relative;
+  width: 1440px;
+  height: 40px;
+  background: #009CFF;
+  margin: auto;
+}
+
+.status-bar_time {
+  position: absolute;
+  left: 22px;
+  top: 7px;
+  font-family: "Fira Sans";
+  font-size: 54px;
+  color: white;
+}
+
+.status-bar_wifi {
+  position: absolute;
+  left: 1297px;
+  top: 17px;
+}
+
+.status-bar_battery {
+  position: absolute;
+  left: 1374px;
+  top: 25px;
+}
+
+.history-top {
+  position: absolute;
+  left: 0px;
+  top: 806px;
+}
+
+.history h2 {
+  position: absolute;
+  left: 660px;
+  top: 802px;
+  font-size: 64px;
+  font-weight: 500;
+  color: white;
+}
+
+.white-bubble-bg {
+  position: absolute;
+  left: 3px;
+  top: 924px;
+  width: 1000px;
+  height: 520px;
+ 
+}
+
+.white-bubble-text {
+  position: absolute;
+  left: 153px;
+  top: 1070px;
+  width: 647px;
+  height: 208px;
+  font-family: "Fira Sans";
+  font-size: 30px;
+  color: #000000;
+  line-height: normal;
+  transform: rotate(-6deg);
+
+}
+
+
+
+
+
+.green-img {
+  position: absolute;
+  left: 743px;
+  top: 1159px;
+  width: 658px;
+  height: 222px;
+}
+
+.green-text {
+  position: absolute;
+  left: 770px;
+  top: 1215px;
+  width: 550px;
+  font-family: "Fira Sans";
+  font-size: 106px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  line-height: 132%;
+  line-height: normal;  
+  letter-spacing: -4px;
+}
+
+
+.block-2013 {
+  position: absolute;
+  left: 16px;
+  top: 1484px;
+  width: 840px;
+}
+
+.block-2013 span {
+  display: block;
+  font-family: "Fira Sans";
+  font-size: 250px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 124.9%;
+}
+
+.block-2013 p {
+  font-family: "Fira Sans";
+  font-size: 32px;
+  color: #ffffff;
+  width: 602px;
+  line-height: 124.9%;
+}
+
+.block-18 {
+  position: absolute;
+  left: 1068px;
+  top: 1854px;
+  width: 322px;
+  text-align: right;
+}
+
+.block-18 p {
+  font-family: "Fira Sans";
+  font-size: 32px;
+  color: #ffffff;
+  width: 563px;
+  position: absolute;
+  right: 0;
+  bottom: 270px;
+  line-height: normal;
+}
+
+.block-18 span {
+  display: block;
+  font-family: "Fira Sans";
+  font-size: 250px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 124.9%;
+}
+
+
+
 .history    {height: 1393px; background: transparent;}
 .styles     {height: 805px;  background: transparent;}
 .strip      {height: 64px;   background: #32EC81;}
 .glyphs     {height: 1028px; background: #000;}  /* ВРЕМЕННО: 749 + 279???? */
 .big-bubble {height: 835px;  background: #000;}
 .languages  {height: 3297px; background: transparent;}
-footer      {height: 639px;  background: #ccc;}  /* ВРЕМЕННО: серый в фигма смотреть */
+footer      {height: 639px;  background: #D9D9D9;}  
