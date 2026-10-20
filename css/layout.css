@@ -1,38 +1,42 @@
-body{
-
+/* ===== ОСНОВА СТРАНИЦЫ ===== */
+body {
+  position: relative;
   width: 1440px;
   margin: 0 auto;
   display: block;
   font-family: "Fira Sans", sans-serif;
   background: url("../img/fon.svg") top center / 1440px auto no-repeat;
 }
-section {           /*УДАЛИТЬ ПОТОМ*/
-  border: 1px dashed #ccc;
+
+section { 
+  border: 1px dashed #ccc; /* УДАЛИТЬ ПОТОМ */
 }
 
+/* ===== СЕКЦИЯ 1: HERO ===== */
 .hero {
-  position:relative;
+  position: relative;
   z-index: 2;
   height: 712px;
   background: transparent;
 }
+
 .hero_title {
   position: absolute;
- left: 83px;
- top: 77px;
- font-size: 594px;
- font-weight: 600;
- line-height: normal;
- white-space: nowrap;
- color: #fff;
- -webkit-text-stroke: 10px #009CFF;
- paint-order: stroke fill;
+  left: 83px;
+  top: 37px;
+  font-size: 594px;
+  font-weight: 600;
+  line-height: normal;
+  white-space: nowrap;
+  color: #fff;
+  -webkit-text-stroke: 10px #009CFF;
+  paint-order: stroke fill;
 }
 
 .hero_subtitle {
   position: absolute;
   left: 26px;
-  top: 653px;
+  top: 613px;
   font-size: 54px;
   font-weight: 500;
   line-height: 132%;
@@ -40,6 +44,7 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   color: #fff;
 }
 
+/* ===== ВЕРХНЯЯ ПАНЕЛЬ ТЕЛЕФОНА ===== */
 .status-bar {
   position: relative;
   width: 1440px;
@@ -52,7 +57,6 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   position: absolute;
   left: 22px;
   top: 7px;
-  font-family: "Fira Sans";
   font-size: 54px;
   color: white;
 }
@@ -69,6 +73,7 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   top: 25px;
 }
 
+/* ===== СЕКЦИЯ 2: HISTORY (ИСТОРИЯ) ===== */
 .history-top {
   position: absolute;
   left: 0px;
@@ -90,7 +95,6 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   top: 924px;
   width: 1000px;
   height: 520px;
- 
 }
 
 .white-bubble-text {
@@ -99,17 +103,11 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   top: 1070px;
   width: 647px;
   height: 208px;
-  font-family: "Fira Sans";
   font-size: 30px;
   color: #000000;
   line-height: normal;
   transform: rotate(-6deg);
-
 }
-
-
-
-
 
 .green-img {
   position: absolute;
@@ -124,16 +122,13 @@ section {           /*УДАЛИТЬ ПОТОМ*/
   left: 770px;
   top: 1215px;
   width: 550px;
-  font-family: "Fira Sans";
   font-size: 106px;
   font-weight: 500;
   color: #000000;
   text-align: center;
-  line-height: 132%;
   line-height: normal;  
   letter-spacing: -4px;
 }
-
 
 .block-2013 {
   position: absolute;
@@ -144,7 +139,6 @@ section {           /*УДАЛИТЬ ПОТОМ*/
 
 .block-2013 span {
   display: block;
-  font-family: "Fira Sans";
   font-size: 250px;
   font-weight: 600;
   color: #ffffff;
@@ -152,7 +146,6 @@ section {           /*УДАЛИТЬ ПОТОМ*/
 }
 
 .block-2013 p {
-  font-family: "Fira Sans";
   font-size: 32px;
   color: #ffffff;
   width: 602px;
@@ -168,7 +161,6 @@ section {           /*УДАЛИТЬ ПОТОМ*/
 }
 
 .block-18 p {
-  font-family: "Fira Sans";
   font-size: 32px;
   color: #ffffff;
   width: 563px;
@@ -180,19 +172,185 @@ section {           /*УДАЛИТЬ ПОТОМ*/
 
 .block-18 span {
   display: block;
-  font-family: "Fira Sans";
   font-size: 250px;
   font-weight: 600;
   color: #ffffff;
   line-height: 124.9%;
 }
 
+/* ===== СЕКЦИЯ 3: STYLES (НАЧЕРТАНИЯ) ===== */
+.styles_phone {
+  position: absolute;
+  left: 550px;
+  top: -70px;
+  width: 1000px;
+  height: 1000px;
+  z-index: 3;
+}
+
+.styles_bubble {
+  position: absolute;
+  left: 46px;
+  top: 154px;
+  width: 989px;
+  height: 458px;
+}
+
+.styles_line {
+  position: absolute;
+  left: 80px;
+  font-size: 48px;
+  line-height: 99px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.styles_line--thin   { top: 192px; font-weight: 100; }
+.styles_line--light  { top: 263px; font-weight: 300; }
+.styles_line--medium { top: 335px; font-weight: 500; }
+.styles_line--bold   { top: 402px; font-weight: 700; }
+.styles_line--black  { top: 474px; font-weight: 900; }
+
+.strip_text {
+  position: absolute;
+  left: 25px;
+  top: 4px;
+  font-size: 48px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.strip_text i {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 4px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.strip_word-1 { font-weight: 900; font-style: italic; }
+.strip_word-2 { font-weight: 900; font-style: normal; }
+.strip_word-3 { font-weight: 400; font-style: normal; }
+.strip_word-4 { font-weight: 300; font-style: normal; }
+.strip_word-5 { font-weight: 800; font-style: italic; }
+.strip_word-6 { font-weight: 800; font-style: normal; }
+.strip_word-7 { font-weight: 400; font-style: italic; }
 
 
-.history    {height: 1393px; background: transparent;}
-.styles     {height: 805px;  background: transparent;}
-.strip      {height: 64px;   background: #32EC81;}
-.glyphs     {height: 1028px; background: #000;}  /* ВРЕМЕННО: 749 + 279???? */
-.big-bubble {height: 835px;  background: #000;}
-.languages  {height: 3297px; background: transparent;}
-footer      {height: 639px;  background: #D9D9D9;}  
+.glyphs {
+  position: relative;
+  overflow: hidden;
+}
+
+.glyphs_bg-letter {
+  position: absolute;
+  font-size: 968px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.glyphs_bg-letter--q {
+  left: -73px;
+  top: -670px;
+}
+
+.glyphs_bg-letter--n {
+  left: -31px;
+  top: 129px;
+}
+
+.glyphs_bg-letter--g1 {
+  left: 608px;
+  top: -882px;
+}
+
+.glyphs_bg-letter--g {
+  left: 645px;
+  top: -58px;
+}
+
+.glyphs_bg-letter--y {
+  left: 1219px;
+  top: -468px;
+}
+
+.glyphs_label {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 110.8%;
+  white-space: nowrap;
+}
+
+.glyphs_label--gorka {
+  left: 142px;
+  top: 326px;
+}
+
+.glyphs_label--kacheli {
+  left: 765px;
+  top: 76px;
+}
+
+.glyphs_label--truba {
+  left: 1177px;
+  top: 290px;
+}
+
+.glyphs_label--okoshko {
+  left: 1009px;
+  top: 710px;
+}
+
+.glyphiky {
+  position: absolute;
+  left: 0px;
+  top: 760px;
+  width: 100%;
+  height: 276px;
+  z-index: 3;
+  object-fit: cover;
+}
+
+.strip-bottom_text {
+  position: absolute;
+  left: 20px;
+  top: 4045px;
+  font-size: 48px;
+  color: #000000;
+  white-space: nowrap;
+  z-index: 4;
+}
+
+.strip-bottom_text i {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 4px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.strip_word-1 { font-weight: 400; font-style: italic; }
+.strip_word-2 { font-weight: 100; font-style: normal; }
+.strip_word-3 { font-weight: 100; font-style: italic; }
+.strip_word-4 { font-weight: 900; font-style: italic; }
+.strip_word-5 { font-weight: 300; font-style: italic; }
+.strip_word-6 { font-weight: 200; font-style: italic; }
+
+
+
+
+/* ===== ГЛОБАЛЬНЫЕ РАЗМЕРЫ СЕКЦИЙ ===== */
+.history    { height: 1393px; background: transparent; }
+.styles     { position: relative; height: 805px; background: transparent; }
+.strip      { position: relative; height: 63px; background: #32EC81; }
+.glyphs     { height: 1028px; background: #000; }  
+.big-bubble { height: 835px; background: #000; }
+.languages  { height: 3297px; background: transparent; }
+footer      { height: 639px; background: #D9D9D9; }  
