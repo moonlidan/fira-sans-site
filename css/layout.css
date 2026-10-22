@@ -1,356 +1,627 @@
-/* ===== ОСНОВА СТРАНИЦЫ ===== */
-body {
-  position: relative;
-  width: 1440px;
-  margin: 0 auto;
-  display: block;
-  font-family: "Fira Sans", sans-serif;
-  background: url("../img/fon.svg") top center / 1440px auto no-repeat;
+ body {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Fira Sans";
+    background: url("../img/fon.svg") top center / 1440px auto no-repeat;
 }
 
-section { 
-  border: 1px dashed #ccc; /* УДАЛИТЬ ПОТОМ */
-}
-
-/* ===== СЕКЦИЯ 1: HERO ===== */
+/* HERO */
 .hero {
-  position: relative;
-  z-index: 2;
-  height: 712px;
-  background: transparent;
+    position: relative;
+    z-index: 2;
 }
 
 .hero_title {
-  position: absolute;
-  left: 83px;
-  top: 37px;
-  font-size: 594px;
-  font-weight: 600;
-  line-height: normal;
-  white-space: nowrap;
-  color: #fff;
-  -webkit-text-stroke: 10px #009CFF;
-  paint-order: stroke fill;
+    position: absolute;
+    left: 83px;
+    top: 37px;
+    font-size: 594px;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap;
+    color: #fff;
+    -webkit-text-stroke: 10px #009CFF;
+    paint-order: stroke fill;
 }
 
 .hero_subtitle {
-  position: absolute;
-  left: 26px;
-  top: 613px;
-  font-size: 54px;
-  font-weight: 500;
-  line-height: 132%;
-  white-space: nowrap;
-  color: #fff;
+    position: absolute;
+    left: 26px;
+    top: 613px;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 132%;
+    white-space: nowrap;
+    color: #fff;
 }
 
-/* ===== ВЕРХНЯЯ ПАНЕЛЬ ТЕЛЕФОНА ===== */
+/* ВЕРХНЯЯ ПАНЕЛЬ ТЕЛЕФОНА */
 .status-bar {
-  position: relative;
-  width: 1440px;
-  height: 40px;
-  background: #009CFF;
-  margin: auto;
+    position: relative;
+    width: 1440px;
+    height: 40px;
+    margin: auto;
+    background: #009CFF;
 }
 
 .status-bar_time {
-  position: absolute;
-  left: 22px;
-  top: 7px;
-  font-size: 54px;
-  color: white;
+    position: absolute;
+    left: 22px;
+    top: 7px;
+    font-size: 54px;
+    color: #fff;
 }
 
 .status-bar_wifi {
-  position: absolute;
-  left: 1297px;
-  top: 17px;
+    position: absolute;
+    left: 1297px;
+    top: 17px;
 }
 
 .status-bar_battery {
-  position: absolute;
-  left: 1374px;
-  top: 25px;
+    position: absolute;
+    left: 1374px;
+    top: 25px;
 }
 
-/* ===== СЕКЦИЯ 2: HISTORY (ИСТОРИЯ) ===== */
+/* ИСТОРИЯ */
 .history-top {
-  position: absolute;
-  left: 0px;
-  top: 806px;
+    position: absolute;
+    left: 0;
+    top: 785px;
 }
 
 .history h2 {
-  position: absolute;
-  left: 660px;
-  top: 802px;
-  font-size: 64px;
-  font-weight: 500;
-  color: white;
+    position: absolute;
+    left: 660px;
+    top: 775px;
+    font-size: 64px;
+    font-weight: 500;
+    color: #fff;
 }
 
 .white-bubble-bg {
-  position: absolute;
-  left: 3px;
-  top: 924px;
-  width: 1000px;
-  height: 520px;
+    position: absolute;
+    left: 3px;
+    top: 924px;
+    width: 1000px;
+    height: 520px;
 }
 
 .white-bubble-text {
-  position: absolute;
-  left: 153px;
-  top: 1070px;
-  width: 647px;
-  height: 208px;
-  font-size: 30px;
-  color: #000000;
-  line-height: normal;
-  transform: rotate(-6deg);
+    position: absolute;
+    left: 153px;
+    top: 1070px;
+    width: 647px;
+    height: 208px;
+    font-size: 30px;
+    color: #000;
+    line-height: normal;
+    transform: rotate(-6deg);
 }
 
 .green-img {
-  position: absolute;
-  left: 743px;
-  top: 1159px;
-  width: 658px;
-  height: 222px;
+    position: absolute;
+    left: 743px;
+    top: 1159px;
+    width: 658px;
+    height: 222px;
 }
 
 .green-text {
-  position: absolute;
-  left: 770px;
-  top: 1215px;
-  width: 550px;
-  font-size: 106px;
-  font-weight: 500;
-  color: #000000;
-  text-align: center;
-  line-height: normal;  
-  letter-spacing: -4px;
+    position: absolute;
+    left: 770px;
+    top: 1215px;
+    width: 550px;
+    font-size: 106px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: -4px;
 }
 
 .block-2013 {
-  position: absolute;
-  left: 16px;
-  top: 1484px;
-  width: 840px;
+    position: absolute;
+    left: 16px;
+    top: 1484px;
+    width: 840px;
 }
 
 .block-2013 span {
-  display: block;
-  font-size: 250px;
-  font-weight: 600;
-  color: #ffffff;
-  line-height: 124.9%;
+    display: block;
+    font-size: 250px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 124.9%;
 }
 
 .block-2013 p {
-  font-size: 32px;
-  color: #ffffff;
-  width: 602px;
-  line-height: 124.9%;
+    width: 602px;
+    font-size: 32px;
+    color: #fff;
+    line-height: 124.9%;
 }
 
 .block-18 {
-  position: absolute;
-  left: 1068px;
-  top: 1854px;
-  width: 322px;
-  text-align: right;
+    position: absolute;
+    left: 1068px;
+    top: 1854px;
+    width: 322px;
+    text-align: right;
 }
 
 .block-18 p {
-  font-size: 32px;
-  color: #ffffff;
-  width: 563px;
-  position: absolute;
-  right: 0;
-  bottom: 270px;
-  line-height: normal;
+    position: absolute;
+    right: 0;
+    bottom: 270px;
+    width: 563px;
+    font-size: 32px;
+    color: #fff;
+    line-height: normal;
 }
 
 .block-18 span {
-  display: block;
-  font-size: 250px;
-  font-weight: 600;
-  color: #ffffff;
-  line-height: 124.9%;
+    display: block;
+    font-size: 250px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 124.9%;
 }
 
-/* ===== СЕКЦИЯ 3: STYLES (НАЧЕРТАНИЯ) ===== */
+/* НАЧЕРТАНИЯ */
+.styles {
+    position: relative;
+}
+
 .styles_phone {
-  position: absolute;
-  left: 550px;
-  top: -70px;
-  width: 1000px;
-  height: 1000px;
-  z-index: 3;
+    position: absolute;
+    left: 550px;
+    top: -70px;
+    z-index: 3;
+    width: 1000px;
+    height: 1000px;
 }
 
 .styles_bubble {
-  position: absolute;
-  left: 46px;
-  top: 154px;
-  width: 989px;
-  height: 458px;
+    position: absolute;
+    left: 46px;
+    top: 154px;
+    width: 989px;
+    height: 458px;
 }
 
 .styles_line {
-  position: absolute;
-  left: 80px;
-  font-size: 48px;
-  line-height: 99px;
-  color: #fff;
-  white-space: nowrap;
+    position: absolute;
+    left: 80px;
+    font-size: 48px;
+    line-height: 99px;
+    color: #fff;
+    white-space: nowrap;
 }
 
-.styles_line--thin   { top: 192px; font-weight: 100; }
-.styles_line--light  { top: 263px; font-weight: 300; }
-.styles_line--medium { top: 335px; font-weight: 500; }
-.styles_line--bold   { top: 402px; font-weight: 700; }
-.styles_line--black  { top: 474px; font-weight: 900; }
+.styles_line-thin {
+    top: 192px;
+    font-weight: 100;
+}
+
+.styles_line-light {
+    top: 263px;
+    font-weight: 300;
+}
+
+.styles_line-medium {
+    top: 335px;
+    font-weight: 500;
+}
+
+.styles_line-bold {
+    top: 402px;
+    font-weight: 700;
+}
+
+.styles_line-black {
+    top: 474px;
+    font-weight: 900;
+}
+
+/* ВЕРХНЯЯ ЗЕЛЁНАЯ ПОЛОСА */
+.strip {
+    position: relative;
+}
 
 .strip_text {
-  position: absolute;
-  left: 25px;
-  top: 4px;
-  font-size: 48px;
-  color: #000000;
-  white-space: nowrap;
+    position: absolute;
+    left: 25px;
+    top: 4px;
+    font-size: 48px;
+    color: #000;
+    white-space: nowrap;
 }
 
-.strip_text i {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  color: #ffffff;
-  margin-left: 4px;
-  margin-right: 12px;
-  vertical-align: middle;
+.strip_text i,
+.strip-bottom_text i,
+.new-strip_text i {
+    margin-left: 4px;
+    margin-right: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    vertical-align: middle;
 }
 
-.strip_word-1 { font-weight: 900; font-style: italic; }
-.strip_word-2 { font-weight: 900; font-style: normal; }
-.strip_word-3 { font-weight: 400; font-style: normal; }
-.strip_word-4 { font-weight: 300; font-style: normal; }
-.strip_word-5 { font-weight: 800; font-style: italic; }
-.strip_word-6 { font-weight: 800; font-style: normal; }
-.strip_word-7 { font-weight: 400; font-style: italic; }
+.new-strip_text i {
+    margin-right: 6px;
+}
 
+.strip_word-1,
+.strip-bottom_text .strip_word-4 {
+    font-weight: 900;
+    font-style: italic;
+}
 
+.strip_text .strip_word-2{
+    font-weight: 900;
+    font-style: normal;
+}
+
+.strip_text .strip_word-3{
+    font-weight: 400;
+    font-style: normal;
+}
+
+.strip_text .strip_word-4{
+    font-weight: 300;
+    font-style: normal;
+}
+
+.strip_text .strip_word-5{
+    font-weight: 800;
+    font-style: italic;
+}
+
+.strip_text .strip_word-6{
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* ГЛИФЫ */
 .glyphs {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .glyphs_bg-letter {
-  position: absolute;
-  font-size: 968px;
-  font-weight: 600;
-  color: #ffffff;
-  line-height: normal;
+    position: absolute;
+    font-size: 968px;
+    font-weight: 600;
+    color: #fff;
+    line-height: normal;
 }
 
-.glyphs_bg-letter--q {
-  left: -73px;
-  top: -670px;
+.glyphs_bg-letter-q{
+    left: -73px;
+    top: -670px;
 }
 
-.glyphs_bg-letter--n {
-  left: -31px;
-  top: 129px;
+.glyphs_bg-letter-n{
+    left: -31px;
+    top: 129px;
 }
 
-.glyphs_bg-letter--g1 {
-  left: 608px;
-  top: -882px;
+.glyphs_bg-letter-g1{
+    left: 608px;
+    top: -882px;
 }
 
-.glyphs_bg-letter--g {
-  left: 645px;
-  top: -58px;
+.glyphs_bg-letter-g{
+    left: 645px;
+    top: -58px;
 }
 
-.glyphs_bg-letter--y {
-  left: 1219px;
-  top: -468px;
+.glyphs_bg-letter-y{
+    left: 1219px;
+    top: -468px;
 }
 
 .glyphs_label {
-  position: absolute;
-  font-size: 25px;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 110.8%;
-  white-space: nowrap;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 110.8%;
+    white-space: nowrap;
 }
 
-.glyphs_label--gorka {
-  left: 142px;
-  top: 326px;
+.glyphs_label-gorka {
+    left: 142px;
+    top: 326px;
 }
 
-.glyphs_label--kacheli {
-  left: 765px;
-  top: 76px;
+.glyphs_label-kacheli {
+    left: 765px;
+    top: 76px;
 }
 
-.glyphs_label--truba {
-  left: 1177px;
-  top: 290px;
+.glyphs_label-truba{
+    left: 1177px;
+    top: 290px;
 }
 
-.glyphs_label--okoshko {
-  left: 1009px;
-  top: 710px;
+.glyphs_label-okoshko{
+    left: 1009px;
+    top: 710px;
 }
 
 .glyphiky {
-  position: absolute;
-  left: 0px;
-  top: 760px;
-  width: 100%;
-  height: 276px;
-  z-index: 3;
-  object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 760px;
+    z-index: 3;
+    width: 100%;
+    height: 276px;
+    object-fit: cover;
 }
 
-.strip-bottom_text {
-  position: absolute;
-  left: 20px;
-  top: 4045px;
-  font-size: 48px;
-  color: #000000;
-  white-space: nowrap;
-  z-index: 4;
+/* НИЖНЯЯ ПОЛОСА */
+.strip-bottom_text{
+    position: absolute;
+    left: 20px;
+    top: 4045px;
+    z-index: 4;
+    font-size: 48px;
+    color: #000;
+    white-space: nowrap;
 }
 
-.strip-bottom_text i {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  color: #ffffff;
-  margin-left: 4px;
-  margin-right: 12px;
-  vertical-align: middle;
+.strip-bottom_text .strip_word-1{
+    font-weight: 400;
+    font-style: italic;
 }
 
-.strip_word-1 { font-weight: 400; font-style: italic; }
-.strip_word-2 { font-weight: 100; font-style: normal; }
-.strip_word-3 { font-weight: 100; font-style: italic; }
-.strip_word-4 { font-weight: 900; font-style: italic; }
-.strip_word-5 { font-weight: 300; font-style: italic; }
-.strip_word-6 { font-weight: 200; font-style: italic; }
+.strip-bottom_text .strip_word-2{
+    font-weight: 100;
+    font-style: normal;
+}
 
+.strip-bottom_text .strip_word-3{
+    font-weight: 100;
+    font-style: italic;
+}
 
+.strip-bottom_text .strip_word-5{
+    font-weight: 300;
+    font-style: italic;
+}
 
+.strip-bottom_text .strip_word-6{
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* СИНИЙ ПУЗЫРЬ */
+.big-bubble {
+    position: relative;
+}
+
+.blue-bubble {
+    position: relative;
+    height: 835px;
+}
+
+.blue-bubble_img{
+    position: absolute;
+    left: 59px;
+    top: 247px;
+    width: 1300px;
+    height: 401px;
+}
+
+.blue-bubble_text{
+    position: absolute;
+    left: 220px;
+    top: 279px;
+    width: 943px;
+    height: 343px;
+    margin: 0;
+    color: #fff;
+    font-size: 285.83px;
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: -10px;
+}
+
+.blue-bubble_reacts {
+    position: absolute;
+    left: 1049px;
+    top: 548px;
+    width: 259px;
+    height: 134px;
+    border-radius: 100px;
+    background: #c2c2c2;
+}
+
+.blue-bubble_reacts-kitten {
+    position: absolute;
+    left: -3px;
+    top: 7px;
+    width: 145px;
+    height: 119px;
+}
+
+.blue-bubble_reacts-someone {
+    position: absolute;
+    left: 120px;
+    top: 7px;
+    width: 145px;
+    height: 119px;
+}
+
+.font-info {
+    position: absolute;
+    left: 750px;
+    top: 90px;
+    width: 629px;
+    height: 86px;
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* НОВАЯ ПОЛОСА */
+.new-strip_text {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    font-size: 48px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.new-strip_word-1 {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.new-strip_word-2 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.new-strip_word-3 {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.new-strip_word-4 {
+    font-weight: 800;
+    font-style: normal;
+}
+
+.new-strip_word-5 {
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* ЯЗЫКИ */
+.languages {
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+
+.minib-bubbles {
+    position: relative;
+    top: 90px;
+    z-index: 2;
+}
+
+.minib-bubbles_text {
+    position: absolute;
+    z-index: 3;
+    margin: 0;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.322;
+    white-space: nowrap;
+}
+
+.minib-bubbles_text-first {
+    left: 45px;
+    top: 190px;
+    transform: rotate(-6.7deg);
+}
+
+.minib-bubbles_text-second {
+    left: 50px;
+    top: 255px;
+    transform: rotate(-6.7deg);
+}
+
+.mini-green-bubbles {
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    width: 765px;
+    height: 386px;
+}
+
+.mini-green-text-first {
+    position: absolute;
+    left: 690px;
+    top: 345px;
+    font-size: 64px;
+    font-weight: 400;
+    color: #000;
+    white-space: nowrap;
+}
+
+.mini-green-text-second {
+    position: absolute;
+    left: 695px;
+    top: 555px;
+    font-size: 72px;
+    font-weight: 400;
+    color: #000;
+    white-space: nowrap;
+}
+
+.aska-vo {
+    position: absolute;
+    left: -32px;
+    top: 455px;
+    width: 625px;
+    height: 391px;
+}
+
+.minib-bubble {
+    position: absolute;
+    left: 0;
+    top: 920px;
+}
+
+.minib-bubble-text {
+    position: absolute;
+    left: 40px;
+    top: 935px;
+    font-size: 34px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.japan-biblu-bubble {
+    position: absolute;
+    left: 30px;
+    top: 1050px;
+    width: 1390px;
+    height: 396px;
+}
+
+.japan-biblu-bubble-text {
+    position: absolute;
+    left: 110px;
+    top: 1115px;
+    font-size: 173px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* ПОДВАЛ */
+footer {
+    background: #D9D9D9;
+}
 
 /* ===== ГЛОБАЛЬНЫЕ РАЗМЕРЫ СЕКЦИЙ ===== */
-.history    { height: 1393px; background: transparent; }
-.styles     { position: relative; height: 805px; background: transparent; }
-.strip      { position: relative; height: 63px; background: #32EC81; }
-.glyphs     { height: 1028px; background: #000; }  
-.big-bubble { height: 835px; background: #000; }
-.languages  { height: 3297px; background: transparent; }
-footer      { height: 639px; background: #D9D9D9; }  
+section.history      { height: 1393px; }
+section.styles       { height: 805px; }
+section.strip        { height: 63px; background: #32EC81; }
+section.glyphs       { height: 1028px; background: #000; }
+section.big-bubble   { height: 765px; }
+section.languages    { height: 3297px; }
+header.hero          { height: 712px; }
+footer               { height: 639px; }
