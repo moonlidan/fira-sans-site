@@ -4,7 +4,9 @@
     margin: 0 auto;
     font-family: "Fira Sans";
     background: url("../img/fon.svg") top center / 1440px auto no-repeat;
+    overflow-x: hidden;
 }
+
 
 /* HERO */
 .hero {
@@ -36,7 +38,7 @@
     color: #fff;
 }
 
-/* ВЕРХНЯЯ ПАНЕЛЬ ТЕЛЕФОНА */
+
 .status-bar {
     position: relative;
     width: 1440px;
@@ -147,7 +149,7 @@
 .block-18 {
     position: absolute;
     left: 1068px;
-    top: 1854px;
+    top: 1800px;
     width: 322px;
     text-align: right;
 }
@@ -365,7 +367,7 @@
     object-fit: cover;
 }
 
-/* НИЖНЯЯ ПОЛОСА */
+
 .strip-bottom_text{
     position: absolute;
     left: 20px;
@@ -401,14 +403,14 @@
     font-style: italic;
 }
 
-/* СИНИЙ ПУЗЫРЬ */
+
 .big-bubble {
     position: relative;
 }
 
 .blue-bubble {
     position: relative;
-    height: 835px;
+    
 }
 
 .blue-bubble_img{
@@ -435,8 +437,8 @@
 
 .blue-bubble_reacts {
     position: absolute;
-    left: 1049px;
-    top: 548px;
+    left: 1060px;
+    top: 590px;
     width: 259px;
     height: 134px;
     border-radius: 100px;
@@ -611,17 +613,173 @@
     white-space: nowrap;
 }
 
-/* ПОДВАЛ */
-footer {
-    background: #D9D9D9;
+.minib-bubble-2 {
+    position: absolute;
+    left: 0px;
+    top: 1520px;
 }
 
-/* ===== ГЛОБАЛЬНЫЕ РАЗМЕРЫ СЕКЦИЙ ===== */
+.minib-bubble-2-text {
+    position: absolute;
+    left: 50px;
+    top: 1530px;
+    font-size: 34px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.loud-kitten {
+    position: absolute;
+    left: 0px;
+    top: 1600px;
+}
+
+.whaa-moji {
+    position: absolute;
+    left: 452px;
+    top: 1530px;
+}
+
+.end {
+    position: relative;
+}
+
+
+.end-top {
+    position: relative;
+}
+
+.bbubble {
+    position:absolute;
+    left: 40px;
+    top: 120px; 
+}
+
+.bbubble-text {
+    position:absolute;
+    left: 100px;
+    top: 165px; 
+    width: 600px;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: normal;
+}
+
+.medium-blue-bubble {
+    position:absolute;
+    left: 780px;
+    top: 110px; 
+}
+
+.chaika {
+    position:absolute;
+    left: 815px;
+    top: 155px; 
+}
+
+.chaika-2 {
+    position:absolute;
+    left: 815px;
+    top: 265px; 
+}
+
+.chaika-reverse {
+    position:absolute;
+    left: 1250px;
+    top: 250px; 
+}
+
+.chaika-text {
+    position:absolute;
+    left: 840px;
+    top: 140px; 
+    width: 600px;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: normal;
+}
+
+.chaika-reverse-text {
+    position:absolute;
+    left: 720px;
+    top: 190px; 
+    width: 600px;
+    font-size: 38px;
+    color: #ffffff;
+    line-height: normal;
+    text-align: right
+}
+
+.chaika-text-2 {
+    position:absolute;
+    left: 840px;
+    top: 250px; 
+    width: 600px;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: normal;
+}
+
+.micro-bbubble {
+    position: absolute;
+    left: 30px;
+    top: 400px;
+}
+
+.micro-bbubble-text {
+    position: absolute;
+    left: 70px;
+    top: 415px;
+    font-size: 32px;
+    color: #fff;
+    line-height: normal;
+    text-align: center;
+}
+
+.two-phones {
+    position: absolute;
+    left: 0px;
+    top: -200px;
+    width: 1700px;
+    height: 1700px;
+}
+
+.futer {
+    position: relative;
+    
+}
+
+.futer-down {
+    position: absolute;
+    left: 0px;
+    top: auto;
+
+}
+
+.futer-down-text {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.futer-down-text-right {
+    position: absolute;
+    left: 1240px;
+    top: 70px;
+    font-size: 40px;
+    color: #fff;
+    text-align: right
+}
+
+
+header.hero          { height: 712px; }
 section.history      { height: 1393px; }
 section.styles       { height: 805px; }
 section.strip        { height: 63px; background: #32EC81; }
 section.glyphs       { height: 1028px; background: #000; }
 section.big-bubble   { height: 765px; }
-section.languages    { height: 3297px; }
-header.hero          { height: 712px; }
-footer               { height: 639px; }
+section.languages    { height: 2250px; }
+section.end          { height: 1000px; }
+section.futer        {height: 300px;}
