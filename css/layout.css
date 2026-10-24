@@ -8,7 +8,7 @@
 }
 
 
-/* HERO */
+
 .hero {
     position: relative;
     z-index: 2;
@@ -67,7 +67,7 @@
     top: 25px;
 }
 
-/* ИСТОРИЯ */
+
 .history-top {
     position: absolute;
     left: 0;
@@ -172,7 +172,7 @@
     line-height: 124.9%;
 }
 
-/* НАЧЕРТАНИЯ */
+
 .styles {
     position: relative;
 }
@@ -228,7 +228,7 @@
     font-weight: 900;
 }
 
-/* ВЕРХНЯЯ ЗЕЛЁНАЯ ПОЛОСА */
+
 .strip {
     position: relative;
 }
@@ -289,7 +289,7 @@
     font-style: normal;
 }
 
-/* ГЛИФЫ */
+
 .glyphs {
     position: relative;
     overflow: hidden;
@@ -474,7 +474,7 @@
     text-align: right;
 }
 
-/* НОВАЯ ПОЛОСА */
+
 .new-strip_text {
     position: absolute;
     left: 5px;
@@ -509,7 +509,7 @@
     font-style: normal;
 }
 
-/* ЯЗЫКИ */
+
 .languages {
     position: relative;
     top: 40px;
