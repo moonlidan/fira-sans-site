@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     min-width: 320px;
     font-family: "Fira Sans", sans-serif;
     overflow-x: hidden;
@@ -14,7 +13,7 @@ body {
     overflow: clip;
 }
 
-
+/* Обложка */
 
 .hero {
     position: relative;
@@ -50,7 +49,6 @@ body {
     position: relative;
     width: 100%;
     height: 40px;
-    margin: 0;
     background: #009CFF;
 }
 
@@ -74,7 +72,7 @@ body {
     top: 25px;
 }
 
-
+/* История */
 .history-top {
     position: absolute;
     left: 0;
@@ -179,7 +177,7 @@ body {
     line-height: 124.9%;
 }
 
-
+/* Начертания */
 .styles {
     position: relative;
 }
@@ -296,7 +294,7 @@ body {
     font-style: normal;
 }
 
-
+/* Глифы */
 .glyphs {
     position: relative;
     overflow: hidden;
@@ -434,7 +432,6 @@ body {
     top: 279px;
     width: 943px;
     height: 343px;
-    margin: 0;
     color: #fff;
     font-size: 285.83px;
     font-weight: 400;
@@ -474,7 +471,6 @@ body {
     top: 90px;
     width: 629px;
     height: 86px;
-    margin: 0;
     color: #fff;
     font-size: 24px;
     font-weight: 400;
@@ -516,7 +512,7 @@ body {
     font-style: normal;
 }
 
-
+/* Языки */
 .languages {
     position: relative;
     top: 40px;
@@ -647,6 +643,7 @@ body {
     top: 1530px;
 }
 
+/* Лицензия */
 .end {
     position: relative;
 }
@@ -714,7 +711,7 @@ body {
     font-size: 38px;
     color: #ffffff;
     line-height: normal;
-    text-align: right
+    text-align: right;
 }
 
 .chaika-text-2 {
@@ -751,6 +748,7 @@ body {
     height: 1700px;
 }
 
+/* Футер */
 .futer {
     position: relative;
     
@@ -759,8 +757,6 @@ body {
 .futer-down {
     position: absolute;
     left: 0px;
-    top: auto;
-
 }
 
 .futer-down-text {
@@ -777,7 +773,7 @@ body {
     top: 70px;
     font-size: 40px;
     color: #fff;
-    text-align: right
+    text-align: right;
 }
 
 
