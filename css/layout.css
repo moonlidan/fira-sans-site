@@ -1,10 +1,17 @@
- body {
-    position: relative;
-    width: 1440px;
-    margin: 0 auto;
-    font-family: "Fira Sans";
-    background: url("../img/fon.svg") top center / 1440px auto no-repeat;
+body {
+    margin: 0;
+    min-width: 320px;
+    font-family: "Fira Sans", sans-serif;
     overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+    background: url("../img/fon.svg") top center / 100% auto no-repeat;
+    overflow: clip;
 }
 
 
@@ -41,9 +48,9 @@
 
 .status-bar {
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 40px;
-    margin: auto;
+    margin: 0;
     background: #009CFF;
 }
 
@@ -777,9 +784,9 @@
 header.hero          { height: 712px; }
 section.history      { height: 1393px; }
 section.styles       { height: 805px; }
-section.strip        { height: 63px; background: #32EC81; }
+div.strip            { height: 63px; background: #32EC81; }
 section.glyphs       { height: 1028px; background: #000; }
 section.big-bubble   { height: 765px; }
 section.languages    { height: 2250px; }
 section.end          { height: 1000px; }
-section.futer        {height: 300px;}
+footer.futer         { height: 200px; }
